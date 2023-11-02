@@ -31,7 +31,7 @@ namespace ss_klient
         string iplocal= (Dns.GetHostEntry(Dns.GetHostName())).AddressList[0].ToString();
 
         int commandport = 1978;
-        IPAddress serwerip = IPAddress.Parse("192.168.0.62");
+        IPAddress serwerip = IPAddress.Parse("write your ip");
         int portdata = 25000;
         Bitmap bm;
         public MainWindow()
